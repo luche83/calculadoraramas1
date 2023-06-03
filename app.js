@@ -1,7 +1,6 @@
 const argv = require ('process').argv;
 
 const { log } = require('console');
-
 const operacion = argv[2];
 const numberA = +argv[3];
 const numberB = +argv[4];
