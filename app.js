@@ -17,10 +17,10 @@ switch (operacion){
   case "restar": 
       console.log(restar.restar (numberA,numberB));
   case "multiplicar":
-      console.log(multiplicar.multiplicar(numberA, numberB));
+      console.log(multiplicar(numberA, numberB));
       break;
   case "dividir":
-      console.log(dividir.dividir(numberA, numberB));
+      console.log(dividir(numberA, numberB));
       break;
   default:
       console.log("mo es una operacion")
